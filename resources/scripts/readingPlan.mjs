@@ -1,4 +1,4 @@
-const weeklyReadings = [
+export const weeklyReadings = [
   {
     weekNumber: 1,
     reading1: "Joshua 1-3",
@@ -858,5 +858,3 @@ const weeklyReadings = [
     reading3: "Revalation 21-22"
   }
 ]
-
-export {weeklyReadings};
