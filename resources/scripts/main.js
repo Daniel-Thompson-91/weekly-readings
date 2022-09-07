@@ -1,16 +1,16 @@
 //retrieve 3 year reading plan data from json file
-const weeklyReadings = require('../../json/readingPlan.json');
+import {weeklyReadings} from './readingPlan';
 
 //get date info
+const startDate = new Date('March 28, 2020');
 const currentDate = new Date();
-const currentWeekDay = currentDate.getDay();
-const currentMonth = currentDate.getMonth();
-const currentMonthDay = currentDate.getDate();
+const days = Math.floor((currentDate - startDate) / (24 * 60 * 60 * 1000));
+const currentWeek = Math.ceil(days / 7);
 
-//reading plan date info
-const readingPlanStartDate = new Date('March 22, 2020 6:00');
-const currentReadingWeek = 0;
+/*const reading1InJson = weeklyReadings.reading1;
+const reading2InJson = weeklyReadings.reading2;
+const reading3InJson = weeklyReadings.reading3;
 
-const reading1 = document.getElementById('reading1');
-const reading2 = document.getElementById('reading2');
-const reading3 = document.getElementById('reading3');
+const reading1InApp = document.getElementById('reading1');
+const reading2InApp = document.getElementById('reading2');
+const reading3InApp = document.getElementById('reading3');*/
