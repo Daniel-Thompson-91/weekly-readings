@@ -1,5 +1,5 @@
 //retrieve 3 year reading plan data from json file
-import {weeklyReadings} from './readingPlan';
+import {weeklyReadings} from './readingPlan.mjs';
 
 //get date info
 const startDate = new Date('March 28, 2020');
