@@ -860,20 +860,254 @@ const weeklyReadings = [
   }
 ]
 
-//get date info
-const startDate = new Date('March 28, 2020');
+const torahPortions = [
+  {
+    "weekNumber": 1,
+    "Torah": "Genesis 1:1 - 6:8"
+  },
+  {
+    "weekNumber": 2,
+    "Torah": "Genesis 6:9 - 11:32"
+  },
+  {
+    "weekNumber": 3,
+    "Torah": "Genesis 12:1 - 17:27"
+  },
+  {
+    "weekNumber": 4,
+    "Torah": "Genesis 18:1 - 22:24"
+  },
+  {
+    "weekNumber": 5,
+    "Torah": "Genesis 23:1 - 25:18"
+  },
+  {
+    "weekNumber": 6,
+    "Torah": "Genesis 25:19 - 28:9"
+  },
+  {
+    "weekNumber": 7,
+    "Torah": "Genesis 28:10 - 32:3"
+  },
+  {
+    "weekNumber": 8,
+    "Torah": "Genesis 32:4 - 36:43"
+  },
+  {
+    "weekNumber": 9,
+    "Torah": "Genesis 37:1 - 40:23"
+  },
+  {
+    "weekNumber": 10,
+    "Torah": "Genesis 41:1 - 44:17"
+  },
+  {
+    "weekNumber": 11,
+    "Torah": "Genesis 44:18 - 47:27"
+  },
+  {
+    "weekNumber": 12,
+    "Torah": "Genesis 47:28 - 50:26"
+  },
+  {
+    "weekNumber": 13,
+    "Torah": "Exodus 1:1 - 6:1"
+  },
+  {
+    "weekNumber": 14,
+    "Torah": "Exodus 6:2 - 9:35"
+  },
+  {
+    "weekNumber": 15,
+    "Torah": "Exodus 10:1 - 13:16"
+  },
+  {
+    "weekNumber": 16,
+    "Torah": "Exodus 13:17 - 17:16"
+  },
+  {
+    "weekNumber": 17,
+    "Torah": "Exodus 18:1 - 20:23"
+  },
+  {
+    "weekNumber": 18,
+    "Torah": "Exodus 21:1 - 24:18"
+  },
+  {
+    "weekNumber": 19,
+    "Torah": "Exodus 25:1 - 27:19"
+  },
+  {
+    "weekNumber": 20,
+    "Torah": "Exodus 27:20 - 30:10"
+  },
+  {
+    "weekNumber": 21,
+    "Torah": "Exodus 30:11 - 34:35"
+  },
+  {
+    "weekNumber": 22,
+    "Torah": "Exodus 35:1 - 38:20"
+  },
+  {
+    "weekNumber": 23,
+    "Torah": "Exodus 38:21 - 40:38"
+  },
+  {
+    "weekNumber": 24,
+    "Torah": "Leviticus 1:1 - 5:26"
+  },
+  {
+    "weekNumber": 25,
+    "Torah": "Leviticus 6:1 - 8:36"
+  },
+  {
+    "weekNumber": 26,
+    "Torah": "Leviticus 9:1 - 11:47"
+  },
+  {
+    "weekNumber": 27,
+    "Torah": "Leviticus 12:1 - 13:59"
+  },
+  {
+    "weekNumber": 28,
+    "Torah": "Leviticus 14:1 - 15:33"
+  },
+  {
+    "weekNumber": 29,
+    "Torah": "Leviticus 16:1 - 18:30"
+  },
+  {
+    "weekNumber": 30,
+    "Torah": "Leviticus 19:1 - 20:27"
+  },
+  {
+    "weekNumber": 31,
+    "Torah": "Leviticus 21:1 - 24:23"
+  },
+  {
+    "weekNumber": 32,
+    "Torah": "Leviticus 25:1 - 26:2"
+  },
+  {
+    "weekNumber": 33,
+    "Torah": "Leviticus 26:3 - 27:34"
+  },
+  {
+    "weekNumber": 34,
+    "Torah": "Numbers 1:1 - 4:20"
+  },
+  {
+    "weekNumber": 35,
+    "Torah": "Numbers 4:21 - 7:89"
+  },
+  {
+    "weekNumber": 36,
+    "Torah": "Numbers 8:1 - 12:16"
+  },
+  {
+    "weekNumber": 37,
+    "Torah": "Numbers 13:1 - 15:41"
+  },
+  {
+    "weekNumber": 38,
+    "Torah": "Numbers 16:1 - 18:32"
+  },
+  {
+    "weekNumber": 39,
+    "Torah": "Numbers 19:1 - 22:1"
+  },
+  {
+    "weekNumber": 40,
+    "Torah": "Numbers 22:2 - 25:9"
+  },
+  {
+    "weekNumber": 41,
+    "Torah": "Numbers 25:10 - 30:1"
+  },
+  {
+    "weekNumber": 42,
+    "Torah": "Numbers 30:2 - 32:42"
+  },
+  {
+    "weekNumber": 43,
+    "Torah": "Numbers 33:1 - 36:13"
+  },
+  {
+    "weekNumber": 44,
+    "Torah": "Deuteronomy 1:1 - 3:22"
+  },
+  {
+    "weekNumber": 45,
+    "Torah": "Deuteronomy 3:23 - 7:11"
+  },
+  {
+    "weekNumber": 46,
+    "Torah": "Deuteronomy 7:12 - 11:25"
+  },
+  {
+    "weekNumber": 47,
+    "Torah": "Deuteronomy 11:26 - 16:17"
+  },
+  {
+    "weekNumber": 48,
+    "Torah": "Deuteronomy 16:18 - 21:9"
+  },
+  {
+    "weekNumber": 49,
+    "Torah": "Deuteronomy 21:10 - 25:19"
+  },
+  {
+    "weekNumber": 50,
+    "Torah": "Deuteronomy 26:1 - 29:8"
+  },
+  {
+    "weekNumber": 51,
+    "Torah": "Deuteronomy 29:9 - 30:20"
+  },
+  {
+    "weekNumber": 52,
+    "Torah": "Deuteronomy 31:1 - 31:30"
+  },
+  {
+    "weekNumber": 53,
+    "Torah": "Deuteronomy 32:1 - 32:52"
+  },
+  {
+    "weekNumber": 54,
+    "Torah": "Deuteronomy 33:1 - 34:12"
+  }
+]
+
+//torah portion date info
+const torahPortionStartDate = new Date('September 25, 2021')
+const torahPortionDays = Math.floor((currentDate - torahPortionStartDate) / (24 * 60 * 60 * 1000));
+const torahPortionCurrentWeek = Math.ceil(torahPortionDays / 7);
+
+
+//3 year reading plan date info
+const threeYearStartDate = new Date('March 28, 2020');
 const currentDate = new Date();
-const days = Math.floor((currentDate - startDate) / (24 * 60 * 60 * 1000));
-const currentWeek = Math.ceil(days / 7);
+const threeYearDays = Math.floor((currentDate - threeYearStartDate) / (24 * 60 * 60 * 1000));
+const threeYearCurrentWeek = Math.ceil(threeYearDays / 7);
 
 //retrieve DOM elements to be changed dynamically
+const torah = document.getElementById('torah');
 const reading1 = document.getElementById('reading1');
 const reading2 = document.getElementById('reading2');
 const reading3 = document.getElementById('reading3');
 
+const setTorah = () => {
+  for (let i = 0; i < torahPortions.length; i++) {
+    if (torahPortions[i].weekNumber === torahPortionCurrentWeek) {
+      torah.innerHTML = torahPortions[i].Torah;
+    }
+  }
+};
+
 const setReadings = () => {
   for (let i = 0; i < weeklyReadings.length; i++) {
-    if (weeklyReadings[i].weekNumber === currentWeek) {
+    if (weeklyReadings[i].weekNumber === threeYearCurrentWeek) {
       reading1.innerHTML = weeklyReadings[i].reading1;
       reading2.innerHTML = weeklyReadings[i].reading2;
       reading3.innerHTML = weeklyReadings[i].reading3;
@@ -881,4 +1115,5 @@ const setReadings = () => {
   }
 };
 
+setTorah();
 setReadings();
