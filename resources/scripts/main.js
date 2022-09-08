@@ -880,3 +880,5 @@ const setReadings = () => {
     }
   }
 };
+
+setReadings();
