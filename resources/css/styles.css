@@ -15,7 +15,8 @@ body {
   background-image: url('../images/torah-scroll.jpeg');
   background-position: center;
   background-size: cover;
-  width: 800px;
+  width: 80%;
+  max-width: 1200px;
   height: 200px;
   margin: 0 auto;
 }
@@ -29,7 +30,8 @@ body {
   margin: 0 auto;
   background-color: #424242;
   color: #E2E1D6;
-  width: 800px;
+  width: 80%;
+  max-width: 1200px;
   height: 2.5rem;
 }
 
@@ -41,7 +43,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 800px;
+  width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
   background-color: #D5CDA5;
   height: 10rem;
@@ -78,7 +81,7 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 840px) {
   .sub-header {
     height: 3rem;
   }
@@ -94,7 +97,8 @@ body {
   }
 
   .box {
-    width: 24rem;
+    width: 90%;
+    max-width: 24rem;
     height: 10rem;
   }
 
