@@ -1,3 +1,6 @@
+import readingPlan from '../../json/readingPlan.json';
+console.log(readingPlan);
+
 //get date info
 const startDate = new Date('March 28, 2020');
 const currentDate = new Date();
