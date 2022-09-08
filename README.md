@@ -1,0 +1,2 @@
+# weekly-readings
+The goal here is to create a web app that dynamically changes the contents of the reading blocks to this weeks current readings. I have a json with the readings for the 3 year plan. I want to populate the reading1, reading2, and reading3 fields with the data that is the current weeks readings key/value within the json file. Once I figure this out, I will try and get a json file for the traditional readings section and do the same.
