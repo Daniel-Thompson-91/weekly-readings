@@ -1158,7 +1158,7 @@ const torahPortions = [
   {
     "weekNumber": 50,
     "Torah": "Deuteronomy 26:1 - 29:8",
-    "Haftarah": "Isaiah 60:1 - 22",
+    "Haftarah": "Isaiah 60:1-22",
     "BritChadashah": "Ephesians 1:3-6;Revelation 21:10-27"
   },
   {
