@@ -1082,13 +1082,13 @@ const torahPortions = [
 const currentDate = new Date();
 
 //torah portion date info
-const torahPortionStartDate = new Date('October 2, 2021')
+const torahPortionStartDate = new Date('2021-09-25T22:00:00')
 const torahPortionDays = Math.floor((currentDate - torahPortionStartDate) / (24 * 60 * 60 * 1000));
 const torahPortionCurrentWeek = Math.ceil(torahPortionDays / 7);
 
 
 //3 year reading plan date info
-const threeYearStartDate = new Date('March 28, 2020');
+const threeYearStartDate = new Date('2020-03-28T22:00:00');
 const threeYearDays = Math.floor((currentDate - threeYearStartDate) / (24 * 60 * 60 * 1000));
 const threeYearCurrentWeek = Math.ceil(threeYearDays / 7);
 
