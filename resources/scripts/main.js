@@ -1196,7 +1196,7 @@ const torahPortionCurrentWeek = Math.ceil(torahPortionDays / 7);
 
 
 //3 year reading plan date info
-const threeYearStartDate = new Date('2020-03-28T22:00:00');
+const threeYearStartDate = new Date('2020-04-04T22:00:00');
 const threeYearDays = Math.floor((currentDate - threeYearStartDate) / (24 * 60 * 60 * 1000));
 const threeYearCurrentWeek = Math.ceil(threeYearDays / 7);
 
