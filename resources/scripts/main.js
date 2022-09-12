@@ -1190,7 +1190,7 @@ const torahPortions = [
 const currentDate = new Date();
 
 //torah portion date info
-const torahPortionStartDate = new Date('2021-09-25T22:00:00')
+const torahPortionStartDate = new Date('2021-10-02T22:00:00')
 const torahPortionDays = Math.floor((currentDate - torahPortionStartDate) / (24 * 60 * 60 * 1000));
 const torahPortionCurrentWeek = Math.ceil(torahPortionDays / 7);
 
