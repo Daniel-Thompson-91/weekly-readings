@@ -85,10 +85,6 @@ body {
   #hero {
     width: 100%;
   }
-
-  .container {
-    width: 100%;
-  }
   
   .sub-header {
     width: 100%;
@@ -105,6 +101,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     height: 40rem;
+    width: 100%;
   }
 
   .box {
