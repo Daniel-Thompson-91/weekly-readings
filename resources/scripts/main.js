@@ -930,230 +930,230 @@ const torahPortions = [
   {
     "weekNumber": 12,
     "Torah": "Genesis 47:28 - 50:26",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "1 Kings 2:1-12",
+    "BritChadashah": "1 Peter 1:1-9"
   },
   {
     "weekNumber": 13,
     "Torah": "Exodus 1:1 - 6:1",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Isaiah 27:6 - 28:13;Isaiah 29:22-23",
+    "BritChadashah": "Acts 7:17-35;1 Corinthians 14:18-25"
   },
   {
     "weekNumber": 14,
     "Torah": "Exodus 6:2 - 9:35",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Ezekiel 28:25 - 29:21",
+    "BritChadashah": "Romans 9:14-33"
   },
   {
     "weekNumber": 15,
     "Torah": "Exodus 10:1 - 13:16",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Jeremiah 46:13-28",
+    "BritChadashah": "Luke 22:7-30;1 Corinthians 11:20-34"
   },
   {
     "weekNumber": 16,
     "Torah": "Exodus 13:17 - 17:16",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Judges 4:4 - 5:31",
+    "BritChadashah": "John 6:15-71"
   },
   {
     "weekNumber": 17,
     "Torah": "Exodus 18:1 - 20:23",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Isaiah 6:1 - 7:6;Isaiah 9:5-6",
+    "BritChadashah": "Matthew 5:8-20"
   },
   {
     "weekNumber": 18,
     "Torah": "Exodus 21:1 - 24:18",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Jeremiah 34:8-22;Jeremiah 33:25-26",
+    "BritChadashah": "Matthew 5:38-42;Matthew 17:1-11"
   },
   {
     "weekNumber": 19,
     "Torah": "Exodus 25:1 - 27:19",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "1 Kings 5:26 - 6:13",
+    "BritChadashah": "2 Corinthians 9:1-15;Matthew 5:33-37"
   },
   {
     "weekNumber": 20,
     "Torah": "Exodus 27:20 - 30:10",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Ezekiel 43:10-27",
+    "BritChadashah": "Hebrews 13:10-17"
   },
   {
     "weekNumber": 21,
     "Torah": "Exodus 30:11 - 34:35",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "1 Kings 18:1-39",
+    "BritChadashah": "2 Corinthians 3:1-18"
   },
   {
     "weekNumber": 22,
     "Torah": "Exodus 35:1 - 38:20",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "1 Kings 7:40-50",
+    "BritChadashah": "1 Corinthians 3:11-18;2 Corinthians 9:6-11"
   },
   {
     "weekNumber": 23,
     "Torah": "Exodus 38:21 - 40:38",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "1 Kings 7:51 - 8:21",
+    "BritChadashah": "Hebrews 1:1-14"
   },
   {
     "weekNumber": 24,
     "Torah": "Leviticus 1:1 - 5:26",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Isaiah 43:21 - 44:23",
+    "BritChadashah": "Hebrews 10:1-18"
   },
   {
     "weekNumber": 25,
     "Torah": "Leviticus 6:1 - 8:36",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Jeremiah 7:21 - 8:3;Jeremiah 9:22-23",
+    "BritChadashah": "Hebrews 7:24 - 8:6"
   },
   {
     "weekNumber": 26,
     "Torah": "Leviticus 9:1 - 11:47",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "2 Samuel 6:1 - 7:17",
+    "BritChadashah": "Hebrews 7:1-19;Hebrews 8:1-6"
   },
   {
     "weekNumber": 27,
     "Torah": "Leviticus 12:1 - 13:59",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "2 Kings 4:42 - 5:19",
+    "BritChadashah": "John 6:8-13;Matthew 8:1-4"
   },
   {
     "weekNumber": 28,
     "Torah": "Leviticus 14:1 - 15:33",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "2 Kings 7:3-20",
+    "BritChadashah": "Matthew 8:1-17"
   },
   {
     "weekNumber": 29,
     "Torah": "Leviticus 16:1 - 18:30",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Ezekiel 22:1-19",
+    "BritChadashah": "Hebrews 9:11-28"
   },
   {
     "weekNumber": 30,
     "Torah": "Leviticus 19:1 - 20:27",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Amos 9:7-15",
+    "BritChadashah": "1 Corinthians 6:9-20;1 Peter 1:13-16"
   },
   {
     "weekNumber": 31,
     "Torah": "Leviticus 21:1 - 24:23",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Ezekiel 44:15-31",
+    "BritChadashah": "1 Peter 2:4-10"
   },
   {
     "weekNumber": 32,
     "Torah": "Leviticus 25:1 - 26:2",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Jeremiah 32:6-27",
+    "BritChadashah": "Luke 4:16-21"
   },
   {
     "weekNumber": 33,
     "Torah": "Leviticus 26:3 - 27:34",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Jeremiah 16:19 - 17:14",
+    "BritChadashah": "Matthew 21:33-46;2 Corinthians 6:14-18"
   },
   {
     "weekNumber": 34,
     "Torah": "Numbers 1:1 - 4:20",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Hoseah 2:1-23",
+    "BritChadashah": "Romans 9:22-33"
   },
   {
     "weekNumber": 35,
     "Torah": "Numbers 4:21 - 7:89",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Judges 13:2-25",
+    "BritChadashah": "Acts 21:17-26"
   },
   {
     "weekNumber": 36,
     "Torah": "Numbers 8:1 - 12:16",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Zecheriah 2:14 - 4:7",
+    "BritChadashah": "1 Corinthians 10:6-13;Revelation 11:1-19"
   },
   {
     "weekNumber": 37,
     "Torah": "Numbers 13:1 - 15:41",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Joshua 2:1-24",
+    "BritChadashah": "Hebrews 3:7 - 4:1"
   },
   {
     "weekNumber": 38,
     "Torah": "Numbers 16:1 - 18:32",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "1 Samuel 11:14 - 12:22",
+    "BritChadashah": "Romans 13:1-7"
   },
   {
     "weekNumber": 39,
     "Torah": "Numbers 19:1 - 22:1",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Judges 11:1-33",
+    "BritChadashah": "Hebrews 9:11-28;John 3:10-21"
   },
   {
     "weekNumber": 40,
     "Torah": "Numbers 22:2 - 25:9",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Micah 5:6 - 6:8",
+    "BritChadashah": "Romans 11:25-32"
   },
   {
     "weekNumber": 41,
     "Torah": "Numbers 25:10 - 30:1",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "1 Kings 18:46 - 19:21",
+    "BritChadashah": "Romans 11:2-32"
   },
   {
     "weekNumber": 42,
     "Torah": "Numbers 30:2 - 32:42",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Jeremiah 1:1 - 2:3",
+    "BritChadashah": "Matthew 5:33-37"
   },
   {
     "weekNumber": 43,
     "Torah": "Numbers 33:1 - 36:13",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Jeremiah 2:4-28;Jeremiah 3:4",
+    "BritChadashah": "James 4:1-12"
   },
   {
     "weekNumber": 44,
     "Torah": "Deuteronomy 1:1 - 3:22",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Isaiah 1:1-27",
+    "BritChadashah": "Acts 9:1-21;1 Timothy 3:1-7"
   },
   {
     "weekNumber": 45,
     "Torah": "Deuteronomy 3:23 - 7:11",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Isaiah 40:1-26",
+    "BritChadashah": "Matthew 23:31-39;Mark 12:28-34"
   },
   {
     "weekNumber": 46,
     "Torah": "Deuteronomy 7:12 - 11:25",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Isaiah 49:14 - 51:3",
+    "BritChadashah": "Hebrews 11:8-13;Romans 8:31-39"
   },
   {
     "weekNumber": 47,
     "Torah": "Deuteronomy 11:26 - 16:17",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Isaiah 54:11 - 55:5",
+    "BritChadashah": "John 7:37-52;1 John 4:1-6"
   },
   {
     "weekNumber": 48,
     "Torah": "Deuteronomy 16:18 - 21:9",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Isaiah 51:12 - 52:12",
+    "BritChadashah": "John 1:19-27;Acts 3:22-23"
   },
   {
     "weekNumber": 49,
     "Torah": "Deuteronomy 21:10 - 25:19",
-    "Haftarah": "",
-    "BritChadashah": ""
+    "Haftarah": "Isaiah 54:1-10",
+    "BritChadashah": "Matthew 5:27-30;1 Corinthians 5:1-5"
   },
   {
     "weekNumber": 50,
