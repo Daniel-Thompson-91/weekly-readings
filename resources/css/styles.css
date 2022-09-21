@@ -54,7 +54,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 12rem;
-  height: 5rem;
+  min-height: 5rem;
   background-color: #FFFFFF;
   border-radius: 5px;
 }
@@ -73,7 +73,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  min-height: 3rem;
 }
 
 .box-content p {
@@ -107,12 +107,16 @@ body {
   .box {
     width: 90%;
     max-width: 24rem;
-    height: 10rem;
+    min-height: 10rem;
   }
 
   .box-header {
     height: 4rem;
     font-size: 1.5rem;
+  }
+
+  .box-content {
+    min-height: 6rem;
   }
 
   .box-content p {
