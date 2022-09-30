@@ -1169,13 +1169,13 @@ const torahPortions = [
   },
   {
     "weekNumber": 52,
-    "Torah": "Deuteronomy 31:1 - 31:30",
+    "Torah": "Deuteronomy 31:1-30",
     "Haftarah": "Isaiah 55:6 - 56:8",
     "BritChadashah": "Romans 10:14-18"
   },
   {
     "weekNumber": 53,
-    "Torah": "Deuteronomy 32:1 - 32:52",
+    "Torah": "Deuteronomy 32:1-52",
     "Haftarah": "2 Samuel 22:1-51",
     "BritChadashah": "Romans 10:14 - 11:12"
   },
