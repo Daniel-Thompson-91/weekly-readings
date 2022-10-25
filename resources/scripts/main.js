@@ -871,7 +871,7 @@ const torahPortions = [
     "weekNumber": 2,
     "Torah": "Genesis 6:9 - 11:32",
     "Haftarah": "Isaiah 54:1 - 55:5",
-    "BritChadashah": "Matthew 24:36-46;1 Peter 3:18-22"
+    "BritChadashah": "Matthew 24:36-46;1 Peter 3:18-22;Hebrews 11:7"
   },
   {
     "weekNumber": 3,
