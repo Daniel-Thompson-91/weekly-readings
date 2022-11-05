@@ -865,31 +865,31 @@ const torahPortions = [
     "weekNumber": 1,
     "Torah": "Genesis 1:1 - 6:8",
     "Haftarah": "Isaiah 42:5 - 43:11",
-    "BritChadashah": "John 1:1-14;Colossians 1:15-17"
+    "BritChadashah": "John 1:1-14<br>Colossians 1:15-17"
   },
   {
     "weekNumber": 2,
     "Torah": "Genesis 6:9 - 11:32",
     "Haftarah": "Isaiah 54:1 - 55:5",
-    "BritChadashah": "Matthew 24:36-46;1 Peter 3:18-22;Hebrews 11:7"
+    "BritChadashah": "Matthew 24:36-46<br>1 Peter 3:18-22<br>Hebrews 11:7"
   },
   {
     "weekNumber": 3,
     "Torah": "Genesis 12:1 - 17:27",
     "Haftarah": "Isaiah 40:27 - 41:16",
-    "BritChadashah": "Romans 4:1-25"
+    "BritChadashah": "Romans 4:1-25<br>Galatians 4:21 - 5:1<br>Hebrews 11:8-10"
   },
   {
     "weekNumber": 4,
     "Torah": "Genesis 18:1 - 22:24",
     "Haftarah": "2 Kings 4:1-37",
-    "BritChadashah": "Luke 1:26-38 & 24:36-53;2 Peter 2:4-11"
+    "BritChadashah": "Luke 1:26-38 & 24:36-53<br>2 Peter 2:4-11"
   },
   {
     "weekNumber": 5,
     "Torah": "Genesis 23:1 - 25:18",
     "Haftarah": "1 Kings 1:1-31",
-    "BritChadashah": "Matthew 1:1-17;1 Corinthians 15:50-57"
+    "BritChadashah": "Matthew 1:1-17<br>1 Corinthians 15:50-57"
   },
   {
     "weekNumber": 6,
@@ -906,8 +906,8 @@ const torahPortions = [
   {
     "weekNumber": 8,
     "Torah": "Genesis 32:4 - 36:43",
-    "Haftarah": "Hoseah 11:7 - 12:12;Obadiah 1:1-21",
-    "BritChadashah": "Hebrews 11:11-20;Matthew 26:36-46"
+    "Haftarah": "Hoseah 11:7 - 12:12<br>Obadiah 1:1-21",
+    "BritChadashah": "Hebrews 11:11-20<br>Matthew 26:36-46"
   },
   {
     "weekNumber": 9,
@@ -936,8 +936,8 @@ const torahPortions = [
   {
     "weekNumber": 13,
     "Torah": "Exodus 1:1 - 6:1",
-    "Haftarah": "Isaiah 27:6 - 28:13;Isaiah 29:22-23",
-    "BritChadashah": "Acts 7:17-35;1 Corinthians 14:18-25"
+    "Haftarah": "Isaiah 27:6 - 28:13<br>Isaiah 29:22-23",
+    "BritChadashah": "Acts 7:17-35<br>1 Corinthians 14:18-25"
   },
   {
     "weekNumber": 14,
@@ -949,7 +949,7 @@ const torahPortions = [
     "weekNumber": 15,
     "Torah": "Exodus 10:1 - 13:16",
     "Haftarah": "Jeremiah 46:13-28",
-    "BritChadashah": "Luke 22:7-30;1 Corinthians 11:20-34"
+    "BritChadashah": "Luke 22:7-30<br>1 Corinthians 11:20-34"
   },
   {
     "weekNumber": 16,
@@ -960,20 +960,20 @@ const torahPortions = [
   {
     "weekNumber": 17,
     "Torah": "Exodus 18:1 - 20:23",
-    "Haftarah": "Isaiah 6:1 - 7:6;Isaiah 9:5-6",
+    "Haftarah": "Isaiah 6:1 - 7:6<br>Isaiah 9:5-6",
     "BritChadashah": "Matthew 5:8-20"
   },
   {
     "weekNumber": 18,
     "Torah": "Exodus 21:1 - 24:18",
-    "Haftarah": "Jeremiah 34:8-22;Jeremiah 33:25-26",
-    "BritChadashah": "Matthew 5:38-42;Matthew 17:1-11"
+    "Haftarah": "Jeremiah 34:8-22<br>Jeremiah 33:25-26",
+    "BritChadashah": "Matthew 5:38-42<br>Matthew 17:1-11"
   },
   {
     "weekNumber": 19,
     "Torah": "Exodus 25:1 - 27:19",
     "Haftarah": "1 Kings 5:26 - 6:13",
-    "BritChadashah": "2 Corinthians 9:1-15;Matthew 5:33-37"
+    "BritChadashah": "2 Corinthians 9:1-15<br>Matthew 5:33-37"
   },
   {
     "weekNumber": 20,
@@ -991,7 +991,7 @@ const torahPortions = [
     "weekNumber": 22,
     "Torah": "Exodus 35:1 - 38:20",
     "Haftarah": "1 Kings 7:40-50",
-    "BritChadashah": "1 Corinthians 3:11-18;2 Corinthians 9:6-11"
+    "BritChadashah": "1 Corinthians 3:11-18<br>2 Corinthians 9:6-11"
   },
   {
     "weekNumber": 23,
@@ -1008,20 +1008,20 @@ const torahPortions = [
   {
     "weekNumber": 25,
     "Torah": "Leviticus 6:1 - 8:36",
-    "Haftarah": "Jeremiah 7:21 - 8:3;Jeremiah 9:22-23",
+    "Haftarah": "Jeremiah 7:21 - 8:3<br>Jeremiah 9:22-23",
     "BritChadashah": "Hebrews 7:24 - 8:6"
   },
   {
     "weekNumber": 26,
     "Torah": "Leviticus 9:1 - 11:47",
     "Haftarah": "2 Samuel 6:1 - 7:17",
-    "BritChadashah": "Hebrews 7:1-19;Hebrews 8:1-6"
+    "BritChadashah": "Hebrews 7:1-19<br>Hebrews 8:1-6"
   },
   {
     "weekNumber": 27,
     "Torah": "Leviticus 12:1 - 13:59",
     "Haftarah": "2 Kings 4:42 - 5:19",
-    "BritChadashah": "John 6:8-13;Matthew 8:1-4"
+    "BritChadashah": "John 6:8-13<br>Matthew 8:1-4"
   },
   {
     "weekNumber": 28,
@@ -1039,7 +1039,7 @@ const torahPortions = [
     "weekNumber": 30,
     "Torah": "Leviticus 19:1 - 20:27",
     "Haftarah": "Amos 9:7-15",
-    "BritChadashah": "1 Corinthians 6:9-20;1 Peter 1:13-16"
+    "BritChadashah": "1 Corinthians 6:9-20<br>1 Peter 1:13-16"
   },
   {
     "weekNumber": 31,
@@ -1057,7 +1057,7 @@ const torahPortions = [
     "weekNumber": 33,
     "Torah": "Leviticus 26:3 - 27:34",
     "Haftarah": "Jeremiah 16:19 - 17:14",
-    "BritChadashah": "Matthew 21:33-46;2 Corinthians 6:14-18"
+    "BritChadashah": "Matthew 21:33-46<br>2 Corinthians 6:14-18"
   },
   {
     "weekNumber": 34,
@@ -1075,7 +1075,7 @@ const torahPortions = [
     "weekNumber": 36,
     "Torah": "Numbers 8:1 - 12:16",
     "Haftarah": "Zecheriah 2:14 - 4:7",
-    "BritChadashah": "1 Corinthians 10:6-13;Revelation 11:1-19"
+    "BritChadashah": "1 Corinthians 10:6-13<br>Revelation 11:1-19"
   },
   {
     "weekNumber": 37,
@@ -1093,7 +1093,7 @@ const torahPortions = [
     "weekNumber": 39,
     "Torah": "Numbers 19:1 - 22:1",
     "Haftarah": "Judges 11:1-33",
-    "BritChadashah": "Hebrews 9:11-28;John 3:10-21"
+    "BritChadashah": "Hebrews 9:11-28<br>John 3:10-21"
   },
   {
     "weekNumber": 40,
@@ -1116,50 +1116,50 @@ const torahPortions = [
   {
     "weekNumber": 43,
     "Torah": "Numbers 33:1 - 36:13",
-    "Haftarah": "Jeremiah 2:4-28;Jeremiah 3:4",
+    "Haftarah": "Jeremiah 2:4-28<br>Jeremiah 3:4",
     "BritChadashah": "James 4:1-12"
   },
   {
     "weekNumber": 44,
     "Torah": "Deuteronomy 1:1 - 3:22",
     "Haftarah": "Isaiah 1:1-27",
-    "BritChadashah": "Acts 9:1-21;1 Timothy 3:1-7"
+    "BritChadashah": "Acts 9:1-21<br>1 Timothy 3:1-7"
   },
   {
     "weekNumber": 45,
     "Torah": "Deuteronomy 3:23 - 7:11",
     "Haftarah": "Isaiah 40:1-26",
-    "BritChadashah": "Matthew 23:31-39;Mark 12:28-34"
+    "BritChadashah": "Matthew 23:31-39<br>Mark 12:28-34"
   },
   {
     "weekNumber": 46,
     "Torah": "Deuteronomy 7:12 - 11:25",
     "Haftarah": "Isaiah 49:14 - 51:3",
-    "BritChadashah": "Hebrews 11:8-13;Romans 8:31-39"
+    "BritChadashah": "Hebrews 11:8-13<br>Romans 8:31-39"
   },
   {
     "weekNumber": 47,
     "Torah": "Deuteronomy 11:26 - 16:17",
     "Haftarah": "Isaiah 54:11 - 55:5",
-    "BritChadashah": "John 7:37-52;1 John 4:1-6"
+    "BritChadashah": "John 7:37-52<br>1 John 4:1-6"
   },
   {
     "weekNumber": 48,
     "Torah": "Deuteronomy 16:18 - 21:9",
     "Haftarah": "Isaiah 51:12 - 52:12",
-    "BritChadashah": "John 1:19-27;Acts 3:22-23"
+    "BritChadashah": "John 1:19-27<br>Acts 3:22-23"
   },
   {
     "weekNumber": 49,
     "Torah": "Deuteronomy 21:10 - 25:19",
     "Haftarah": "Isaiah 54:1-10",
-    "BritChadashah": "Matthew 5:27-30;1 Corinthians 5:1-5"
+    "BritChadashah": "Matthew 5:27-30<br>1 Corinthians 5:1-5"
   },
   {
     "weekNumber": 50,
     "Torah": "Deuteronomy 26:1 - 29:8",
     "Haftarah": "Isaiah 60:1-22",
-    "BritChadashah": "Ephesians 1:3-6;Revelation 21:10-27"
+    "BritChadashah": "Ephesians 1:3-6<br>Revelation 21:10-27"
   },
   {
     "weekNumber": 51,
@@ -1177,7 +1177,7 @@ const torahPortions = [
     "weekNumber": 53,
     "Torah": "Deuteronomy 32:1-52",
     "Haftarah": "2 Samuel 22:1-51",
-    "BritChadashah": "Romans 10:14 - 11:12;Hebrews 9:19-28"
+    "BritChadashah": "Romans 10:14 - 11:12<br>Hebrews 9:19-28"
   },
   {
     "weekNumber": 54,
@@ -1212,8 +1212,8 @@ const setTraditional = () => {
   for (let i = 0; i < torahPortions.length; i++) {
     if (torahPortions[i].weekNumber === torahPortionCurrentWeek) {
       torah.innerHTML = torahPortions[i].Torah;
-      haftarah.innerHTML = torahPortions[i].Haftarah.replace(";", "<br>");
-      britChadashah.innerHTML = torahPortions[i].BritChadashah.replace(";", "<br>");;
+      haftarah.innerHTML = torahPortions[i].Haftarah;
+      britChadashah.innerHTML = torahPortions[i].BritChadashah;
     }
   }
 };
