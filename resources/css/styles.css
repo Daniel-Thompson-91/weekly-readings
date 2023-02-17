@@ -71,6 +71,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 3rem;
   background-color: var(--green);
   border-top-left-radius: 5px;
@@ -98,7 +99,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background-color: var(--dark-tan);
-  height: 20rem;
+  height: 28rem;
 }
 
 .big-box {
@@ -162,7 +163,7 @@ body {
   }
 
   .notes-container {
-    height: 35rem;
+    height: 42rem;
     width: 100%;
   }
 
