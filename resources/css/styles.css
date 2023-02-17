@@ -89,6 +89,36 @@ body {
   text-align: center;
 }
 
+#notes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--dark-tan);
+  height: 20rem;
+}
+
+.big-box {
+  width: 77%;
+  min-height: 6rem;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+
+.big-box-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 6rem;
+}
+
+.big-box-content p {
+  width: 85%;
+}
+
 @media only screen and (max-width: 840px) {
   #hero {
     width: 100%;
@@ -128,6 +158,19 @@ body {
   }
 
   .box-content p {
+    font-size: 1.25rem;
+  }
+
+  #notes-container {
+    height: 35rem;
+    width: 100%;
+  }
+
+  .big-box {
+    width: 90%;
+  }
+
+  .big-box-content p {
     font-size: 1.25rem;
   }
 }
