@@ -163,15 +163,12 @@ body {
   }
 
   .notes-container {
-    height: 42rem;
+    height: 58rem;
     width: 100%;
-    padding: 3rem 0;
-    height: 100%;
   }
 
   .big-box {
     width: 90%;
-    margin-bottom: 3rem;
   }
 
   .big-box-content p {
