@@ -1003,7 +1003,7 @@ const torahPortions = [
     "weekNumber": 24,
     "Torah": "Leviticus 1:1 - 5:26",
     "Haftarah": "Isaiah 43:21 - 44:23",
-    "BritChadashah": "Hebrews 10:1-18"
+    "BritChadashah": "Hebrews 10:1-18<br>Hebrews 13:10-15"
   },
   {
     "weekNumber": 25,
