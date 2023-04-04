@@ -58,6 +58,14 @@ body {
   height: 10rem;
 }
 
+.passover-container {
+  height: 15rem;
+}
+
+#passover-middle-container {
+  height: 216px;
+}
+
 .box {
   display: flex;
   flex-direction: column;
@@ -88,6 +96,10 @@ body {
 .box-content p {
   margin: 0;
   text-align: center;
+}
+
+.passover-box-content {
+  height: 9rem;
 }
 
 .notes-container {
@@ -141,6 +153,14 @@ body {
     justify-content: space-evenly;
     height: 40rem;
     width: 100%;
+  }
+
+  .passover-container {
+    height: 48rem;
+  }
+
+  #passover-middle-container {
+    height: 48rem;
   }
 
   .box {

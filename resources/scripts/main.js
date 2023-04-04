@@ -860,57 +860,6 @@
 //   }
 // ]
 
-const passoverReadings = [
-  {
-    "dayNumber": 1,
-    "Torah": "Exodus 12:21-51<br>Numbers 28:16-25",
-    "Haftarah": "Joshua 5:2 - 6:1",
-    "BritChadashah": "Luke 22:7-20<br>John 1:29-31<br>1 Corinthians 15:20-28"
-  },
-  {
-    "dayNumber": 2,
-    "Torah": "Leviticus 22:26 - 23:44<br>Numbers 28:16-25",
-    "Haftarah": "2 Kings 23:1-9<br>2 Kings 23:21-25",
-    "BritChadashah": "Revelation 15:1-4"
-  },
-  {
-    "dayNumber": 3,
-    "Torah": "Exodus 33:12 - 34:26<br>Numbers 28:19-25",
-    "Haftarah": "Ezekiel 37:1-14<br>Song of Songs",
-    "BritChadashah": "1 Corinthians 15:20-23"
-  },
-  {
-    "dayNumber": 4,
-    "Torah": "Exodus 13:1-16<br>Numbers 28:19-25",
-    "Haftarah": "None",
-    "BritChadashah": "None"
-  },
-  {
-    "dayNumber": 5,
-    "Torah": "Exodus 22:24 - 23:19<br>Numbers 28:19-25",
-    "Haftarah": "None",
-    "BritChadashah": "None"
-  },
-  {
-    "dayNumber": 6,
-    "Torah": "Numbers 9:1-14<br>Numbers 28:19-25",
-    "Haftarah": "None",
-    "BritChadashah": "None"
-  },
-  {
-    "dayNumber": 7,
-    "Torah": "Exodus 13:17 - 15:26<br>Numbers 28:19-25",
-    "Haftarah": "2 Samuel 22:1-15",
-    "BritChadashah": "Revelation 15:1-4"
-  },
-  {
-    "dayNumber": 8,
-    "Torah": "Deuteronomy 15:19 - 16:17<br>Numbers 28:19-25",
-    "Haftarah": "Isaiah 10:32 - 12:6",
-    "BritChadashah": "None"
-  }
-];
-
 const torahPortions = [
   {
     "weekNumber": 1,
@@ -1239,8 +1188,6 @@ const torahPortions = [
 ]
 
 const currentDate = new Date();
-const currentMonthDay = currentDate.getDate();
-console.log(currentMonthDay);
 
 //torah portion date info
 const torahPortionStartDate = new Date('2022-10-07T22:00:00')
@@ -1257,10 +1204,6 @@ const torahPortionCurrentWeek = Math.ceil(torahPortionDays / 7);
 const torah = document.getElementById('torah');
 const haftarah = document.getElementById('haftarah');
 const britChadashah = document.getElementById('britChadashah');
-const passoverDay = document.getElementById('passoverDay');
-const passoverTorah = document.getElementById('passoverTorah');
-const passoverHaftarah = document.getElementById('passoverHaftarah');
-const passoverBritChadashah = document.getElementById('passoverBritChadashah');
 // const reading1 = document.getElementById('reading1');
 // const reading2 = document.getElementById('reading2');
 // const reading3 = document.getElementById('reading3');
@@ -1275,64 +1218,6 @@ const setTraditional = () => {
   }
 };
 
-const setPassover = () => {
-  switch (currentMonthDay) {
-    case 6:
-      passoverDay.innerHTML = "April 6";
-      passoverTorah.innerHTML = passoverReadings[0].Torah;
-      passoverHaftarah.innerHTML = passoverReadings[0].Haftarah;
-      passoverBritChadashah.innerHTML = passoverReadings[0].BritChadashah;
-      break;
-    case 7:
-      passoverDay.innerHTML = "April 7";
-      passoverTorah.innerHTML = passoverReadings[1].Torah;
-      passoverHaftarah.innerHTML = passoverReadings[1].Haftarah;
-      passoverBritChadashah.innerHTML = passoverReadings[1].BritChadashah;
-      break;
-    case 8:
-      passoverDay.innerHTML = "April 8";
-      passoverTorah.innerHTML = passoverReadings[2].Torah;
-      passoverHaftarah.innerHTML = passoverReadings[2].Haftarah;
-      passoverBritChadashah.innerHTML = passoverReadings[2].BritChadashah;
-      break;
-    case 9:
-      passoverDay.innerHTML = "April 9";
-      passoverTorah.innerHTML = passoverReadings[3].Torah;
-      passoverHaftarah.innerHTML = passoverReadings[3].Haftarah;
-      passoverBritChadashah.innerHTML = passoverReadings[3].BritChadashah;
-      break;
-    case 10:
-      passoverDay.innerHTML = "April 10";
-      passoverTorah.innerHTML = passoverReadings[4].Torah;
-      passoverHaftarah.innerHTML = passoverReadings[4].Haftarah;
-      passoverBritChadashah.innerHTML = passoverReadings[4].BritChadashah;
-      break;
-    case 11:
-      passoverDay.innerHTML = "April 11";
-      passoverTorah.innerHTML = passoverReadings[5].Torah;
-      passoverHaftarah.innerHTML = passoverReadings[5].Haftarah;
-      passoverBritChadashah.innerHTML = passoverReadings[5].BritChadashah;
-      break;
-    case 12:
-      passoverDay.innerHTML = "April 12";
-      passoverTorah.innerHTML = passoverReadings[6].Torah;
-      passoverHaftarah.innerHTML = passoverReadings[6].Haftarah;
-      passoverBritChadashah.innerHTML = passoverReadings[6].BritChadashah;
-      break;
-    case 13:
-      passoverDay.innerHTML = "April 13";
-      passoverTorah.innerHTML = passoverReadings[7].Torah;
-      passoverHaftarah.innerHTML = passoverReadings[7].Haftarah;
-      passoverBritChadashah.innerHTML = passoverReadings[7].BritChadashah;
-      break;
-    default:
-      passoverDay.innerHTML = "April 5";
-      passoverTorah.innerHTML = "None";
-      passoverHaftarah.innerHTML = "Isaiah 53";
-      passoverBritChadashah.innerHTML = "Matthew 26:17-32<br>1 Corinthians 11:23-31<br>Galatians 1:4<br>1 Peter 2:34";
-  };
-};
-
 // const setReadings = () => {
 //   for (let i = 0; i < weeklyReadings.length; i++) {
 //     if (weeklyReadings[i].weekNumber === threeYearCurrentWeek) {
@@ -1344,5 +1229,4 @@ const setPassover = () => {
 // };
 
 setTraditional();
-setPassover();
 //setReadings();
