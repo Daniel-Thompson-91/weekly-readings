@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@hebcal/core": "^3.50.4"
+  }
+}
